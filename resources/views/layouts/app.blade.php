@@ -26,15 +26,10 @@
     <a href="../../index2.html"><b>MEN</b>Technology & Media</a>
   </div>
   <!-- /.login-logo -->
-  <div class="login-box-body">
-    <p class="login-box-msg">Login om uw dashboard te bekijken.</p>
-
     @yield('content')
     <!-- /.social-auth-links -->
 
-    <a href="{{ url('/password/reset') }}">Wachtwoord vergeten</a><br>
 
-  </div>
   <!-- /.login-box-body -->
 </div>
 <script type="text/javascript" src="/js/app.js"></script>

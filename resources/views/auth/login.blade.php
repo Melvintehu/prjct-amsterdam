@@ -1,8 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+  <div class="login-box-body">
+    <p class="login-box-msg">Login om uw dashboard te bekijken.</p>
+
     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
-    {{ csrf_field() }}
+        {{ csrf_field() }}
+
+
       <div class="form-group has-feedback">
         <input type="email" class="form-control" placeholder="Email" name="email" value="{{ old('email') }}" required autofocus>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -12,6 +17,9 @@
             </span>
         @endif
       </div>
+
+
+
       <div class="form-group has-feedback">
         <input type="password" class="form-control" placeholder="Password" name="password" required>
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
@@ -38,4 +46,7 @@
       </div>
     </form>
 
+    <a href="{{ url('/password/reset') }}">Wachtwoord vergeten</a><br>
+
+  </div>
 @endsection
