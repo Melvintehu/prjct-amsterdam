@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="login-box-body">
-    <p class="login-box-msg">Login om uw dashboard te bekijken.</p>
+    <p class="login-box-msg"> Login om uw dashboard te bekijken.</p>
 
     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
         {{ csrf_field() }}
