@@ -2,8 +2,9 @@
 
 use Illuminate\Http\Request;
 
+
 /*
-|--------------------------------------------------------------------------
+--------------------------------------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
 |
@@ -13,6 +14,15 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+
+Route::group(['prefix' => config('app.api.version')], function () {
+	// 	Login post to retreive the token
+	Route::post('login','Api\AuthController@login');
+	
+    // All authenticated routes 
+	Route::group(['middleware' => 'auth:api'], function () {
+		Route::get('user', function (Request $request) {
+			return $request->user();
+        });
+    });
 });
