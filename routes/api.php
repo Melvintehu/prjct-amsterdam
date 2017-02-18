@@ -18,7 +18,8 @@ use Illuminate\Http\Request;
 Route::group(['prefix' => config('app.api.version')], function () {
 	// 	Login post to retreive the token
 	Route::post('login','Api\AuthController@login');
-	
+	Route::get('logout','Api\AuthController@logout');
+    
     // All authenticated routes 
 	Route::group(['middleware' => 'auth:api'], function () {
 		Route::get('user', function (Request $request) {
