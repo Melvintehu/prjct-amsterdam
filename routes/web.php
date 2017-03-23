@@ -23,5 +23,8 @@ Route::group(['prefix' => 'cms'],  function () {
     });
 });
 
+Route::get('/', 'HomepageController@index');
+
+
 Route::auth();
 Auth::routes();
