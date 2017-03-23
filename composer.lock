@@ -238,6 +238,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.4.16",
             "source": {
                 "type": "git",
@@ -248,6 +249,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/6cf379ec34d08bcdc9c7183e369a8fdf04ade80d",
                 "reference": "6cf379ec34d08bcdc9c7183e369a8fdf04ade80d",
+=======
+            "version": "v5.4.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "ecc6468b8af30b77566a8519ce8898740ef691d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ecc6468b8af30b77566a8519ce8898740ef691d7",
+                "reference": "ecc6468b8af30b77566a8519ce8898740ef691d7",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -363,7 +376,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2017-03-21 19:34:41"
+=======
+            "time": "2017-03-02 14:41:40"
+>>>>>>> origin/master
         },
         {
             "name": "laravel/tinker",
@@ -425,6 +442,7 @@
         },
         {
             "name": "league/flysystem",
+<<<<<<< HEAD
             "version": "1.0.37",
             "source": {
                 "type": "git",
@@ -435,6 +453,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/78b5cc4feb61a882302df4fbaf63b7662e5e4ccd",
                 "reference": "78b5cc4feb61a882302df4fbaf63b7662e5e4ccd",
+=======
+            "version": "1.0.36",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "d9c1698582dfbfbd092ec9c5c3325f862cdb3297"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d9c1698582dfbfbd092ec9c5c3325f862cdb3297",
+                "reference": "d9c1698582dfbfbd092ec9c5c3325f862cdb3297",
+>>>>>>> origin/master
                 "shasum": ""
             },
             "require": {
@@ -504,7 +534,11 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
             "time": "2017-03-22 15:43:14"
+=======
+            "time": "2017-03-18 16:02:30"
+>>>>>>> origin/master
         },
         {
             "name": "monolog/monolog",

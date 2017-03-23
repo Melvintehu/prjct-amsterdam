@@ -13,7 +13,6 @@ require('admin-lte/plugins/colorpicker/bootstrap-colorpicker.min');
 require('admin-lte/plugins/timepicker/bootstrap-timepicker.min');
 require('admin-lte/plugins/iCheck/icheck.min');
 
-
 // init plugins here
 $('.datepicker').datepicker({
   format: 'yyyy-mm-dd'
