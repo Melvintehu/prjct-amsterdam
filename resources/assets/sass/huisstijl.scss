@@ -92,12 +92,11 @@
 
 /* --------------------------------------------- COLOR VARIABLES -------------------------------------------- */
 
-
 $light-color: white;
 $dark-color: #3F3F3F;
 $main-color : #050505;
-$secondary-color : #FFF506;
-$accent-color : #E9E9E9;
+$secondary-color : #FFDD00;
+$accent-color : #F6F6F6;
 
 $background-color-light: white;
 $background-color-dark: #3F3F3F;
@@ -121,7 +120,7 @@ $font-size-xs: 11px;
 $font-size-sm: 12px;
 $font-size-md: 15px;
 $font-size-lg: 24.5px;
-$font-size-xl: 42px;
+$font-size-xl: 55px;
 
 
 /* --------------------------------------------- SHAPE SIZE VARIABLES -------------------------------------------- */
@@ -153,7 +152,7 @@ $opacity-xl: 0.25;
 /* --------------------------------------------- HTML STRUCTURE VARIABLES -------------------------------------------- */
 
 
-$border-thickness: 1px;
+$border-thickness: 3px;
 
 $limit-width-xs: 200px;
 $limit-width-sm: 240px;
@@ -1136,6 +1135,11 @@ h3{ font-size: $font-size-md; }
 .shadow-xl { box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); }
 
 
+.shadow-xs-top { box-shadow: 0 -1px 3px rgba(0,0,0,0.12), 0 -1px 2px rgba(0,0,0,0.24); }
+.shadow-sm-top { box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23); }
+.shadow-md-top { box-shadow: 0 -10px 20px rgba(0,0,0,0.19), 0 -6px 6px rgba(0,0,0,0.23); }
+.shadow-lg-top { box-shadow: 0 -14px 28px rgba(0,0,0,0.25), 0 -10px 10px rgba(0,0,0,0.22); }
+.shadow-xl-top { box-shadow: 0 -19px 38px rgba(0,0,0,0.30), 0 -15px 12px rgba(0,0,0,0.22); }
 
 
 /* -------------------------- */
@@ -1722,6 +1726,8 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 
 }
 
+
+
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
 
@@ -1730,3 +1736,37 @@ img .image-greyscale-none{ -webkit-filter: greyscale(0%); filter: grayscale(0%);
 	.xs-inline{ display: inline; }
 
 }
+
+
+/* ----------------------- */
+/* || --base settings-- || */
+/* ----------------------- */
+
+
+/* ----------------- */
+/* || --classes-- || */
+/* ----------------- */
+
+.relative{ position: relative; }
+.absolute{ position: absolute; }
+.fixed{ position: fixed; }
+
+.position-bottom { position: absolute; bottom: 0px; }
+.position-top{ position: absolute; top: 0; }
+.position-right{ position: absolute; right: 0; }
+.position-left{ position: absolute; left: 0; }
+.position-bottom-center{ position: absolute; left: 50%; bottom: 0;}
+.position-bottom-right{ position: absolute; right: 0; bottom: 0;}
+.position-bottom-left{ position: absolute; left: 0; bottom: 0;}
+
+/* -------------------------- */
+/* || --class attaching -- || */
+/* -------------------------- */
+
+/* ------------------ */
+/* || -- hovers -- || */
+/* ------------------ */
+
+/* ----------------------- */
+/* || --media queries-- || */
+/* ----------------------- */

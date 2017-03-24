@@ -3,7 +3,8 @@
     <div class="padding-slider">
         <slot name="content"  > </slot>
     </div>
-    <slot class="slider-image-sl" name="background"></slot>
+    <div class="overlay-sl"></div>
+    <slot class="slider-image-sl lg-banner-height" name="background"></slot>
 
 </div>
 </template>
@@ -16,10 +17,10 @@
     .banner-sl{
         position: relative;
         overflow: hidden;
-        height: 440px;
+        height: 100%;
     }
 
-     .background-sl{
+    .background-sl{
         position: absolute;
         top: 0;
         left: 0;
@@ -30,11 +31,11 @@
 
     .overlay-sl {
         position: absolute;
-        background: rgba(0,0,0,0.25);
+        background: rgba(0,0,0,0.35);
         top: 0;
         left: 0;
         width: 100%;
-        height: 440px;
+        height: 100%;
         z-index: -9;
     }
 
