@@ -14,10 +14,14 @@
         <script>
             window.Laravel = { csrfToken: '{{ csrf_token() }}' };
         </script>
-        <div class="container-fluid space-inside-sides-md bg-main">
+        <div class="container-fluid space-inside-sides-xl bg-main">
             @include('partials.navigation')
         </div>
+        <div id="app">
+            @include('partials.banner');
+        </div>
 
+        <script type="text/javascript" src="/js/vue.js"></script>
         <script type="text/javascript" src="/js/app.js"></script>
     </body>
 </html>
