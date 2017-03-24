@@ -1,12 +1,12 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
   <a href="/">
 
-    <div class="col-lg-1 col-md-1 col-sm-1  main-logo hidden-xs  ">
-      <!-- <img src='../images/logo-small.png' /> -->
+    <div class="col-lg-1 col-md-1 col-sm-2  main-logo hidden-xs space-inside-up-xs ">
+      <img src='../images/logo-1.jpg' />
     </div>
 
-    <div class="col-lg-3 col-md-3 col-sm-3  main-logo hidden-xs  ">
-      <!-- <img src='../images/logo.png' /> -->
+    <div class="col-lg-3 col-md-2 col-sm-1  main-logo visible-lg space-inside-up-xs ">
+      <img src='../images/prjct-amsterdam.jpg' />
     </div>
 
   </a>

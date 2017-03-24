@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>PRJCT Amsterdam || Music ensemble by Maarten Engeltjes</title>
         <link rel="stylesheet" type="text/css" href="/css/app.css">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,600" rel="stylesheet" type="text/css">
@@ -50,7 +50,7 @@
                     <h1 class="text-color-main text-bold text-center ">Tickets kopen</h1>
                 </div>
                 <div class="col-lg-3 all-col-centered">
-                    <div style="width: 100%; height: 100%;" class=" shadow-xs shadow-xs-hover transition-normal pointer">
+                    <div style="width: 100%; height: 100%;" class=" shadow-xs shadow-sm-hover transition-normal pointer">
                         <div class="image">
                             <img src="/images/foto1.jpg">
                         </div>
@@ -78,7 +78,11 @@
                 </div>
                 <!-- end of card -->
                 <div class="col-lg-3 all-col-centered">
-                    <div style="width: 100%; height: 100%;" class=" shadow-xs">
+                    <div style="width: 100%; height: 100%;" class="
+                        shadow-xs shadow-sm-hover
+                        transition-normal
+                        pointer
+                    ">
                         <div class="image">
                             <img src="/images/foto1.jpg">
                         </div>
@@ -106,7 +110,11 @@
                 </div>
                 <!-- end of card -->
                 <div class="col-lg-3 all-col-centered">
-                    <div style="width: 100%; height: 100%;" class=" shadow-xs">
+                    <div style="width: 100%; height: 100%;" class="
+                        shadow-xs shadow-sm-hover
+                        transition-normal
+                        pointer
+                    ">
                         <div class="image">
                             <img src="/images/foto1.jpg">
                         </div>
