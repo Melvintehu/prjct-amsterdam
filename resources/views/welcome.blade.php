@@ -22,11 +22,13 @@
                 shadow-xs">
             @include('partials.navigation')
         </div>
+
         <div id="app">
             @include('partials.banner')
         </div>
 
-        <div id='over' class="container-fluid space-inside-sides-xl  space-inside-lg bg-accent">
+        <div id='over' class="container-fluid space-inside-sides-xl xs-space-inside-sides-md  space-inside-lg bg-accent">
+
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="text-color-main text-bold">Over</h1>
@@ -81,7 +83,7 @@
         <div id="projecten" class="container-fluid space-inside-sides-xl space-inside-lg   bg-accent">
             <div class="row">
                 <div class="col-lg-12 space-inside-down-lg">
-                    <h1 class="text-color-main text-bold ">Pergolesi’s <span class="text-light"> Stabat Mater </span></h1>
+                    <h1 class="text-color-main text-light ">Pergolesi’s <span class="text-bold"> Stabat Mater </span></h1>
                     <p class="font-lg space-outside-up-md text-italic"> Projecten </p>
                 </div>
                 <div class="col-lg-8 ">
@@ -106,7 +108,7 @@
 
 
 
-        <div class="container-fluid bg-accent space-inside-sides-xl">
+        <div class="container-fluid bg-accent space-inside-sides-xl xs-space-inside-sides-md">
             <div style="height: 1px;" class="divider bg-main bg-main-lighten-lg"></div>
             <div class="row text-center">
                 <div class="col-lg-12 space-outside-xl">
@@ -117,7 +119,7 @@
                     <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
                         <img alt="Maarten Engeltjes" title="Maarten Engeltjes" src="/images/maarten-engeltjes.jpg">
                     </div>
-                    <div class="inline-block space-inside-md space-inside-sides-lg">
+                    <div class="inline-block space-inside-md space-inside-sides-lg xs-space-inside-sides-xs">
                         <p class=" font-md">
                             Maarten Engeltjes zingt al sinds hij vier jaar was en koestert van kleins af aan een voorliefde voor Händel en Bach. Hij is uitgegroeid tot één van de meest gevraagde countertenors ter wereld en behoort nu tot de absolute wereldtop van de klassieke muziek.
                         </p>
@@ -128,7 +130,7 @@
                     <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
                         <img alt="Riccardo Minasi" title="Riccardo Minasi" src="/images/Riccardo Minasi.jpeg">
                     </div>
-                    <div class="inline-block space-inside-md space-inside-sides-lg">
+                    <div class="inline-block space-inside-md space-inside-sides-lg xs-space-inside-sides-xs">
                         <p class=" font-md">
                             Dirigent en violist Riccardo Minasi werd al eerder door The Guardian beschreven als een “outstanding musician”, en heeft in korte tijd een reputatie als één van de meest levendige talenten van de Europese muziekwereld van de afgelopen jaren weten te verkrijgen.
                         </p>
@@ -139,7 +141,7 @@
                     <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
                         <img alt="Rosemary Joshua" title="Rosemary Joshua" src="/images/Rosemary Joshua.jpeg">
                     </div>
-                    <div class="inline-block space-inside-md space-inside-sides-lg">
+                    <div class="inline-block space-inside-md space-inside-sides-lg xs-space-inside-sides-xs">
                         <p class=" font-md">
                             Befaamd sopraan Rosemary Joshua zong onder meer bij het Royal Opera House, het Teatro alla Scala, de Metropolitan Opera, de Bayerische Staatsoper en De Nationale Opera. Ook werkte zij als artistiek leidster bij DNOA, waar zij met veel toewijding en enthousiasme jonge operatalenten klaarstoomde voor de beroepspraktijk.
                         </p>

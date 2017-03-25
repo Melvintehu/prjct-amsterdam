@@ -10,7 +10,9 @@
     </div>
 
   </a>
-<nav class="navbar navbar-default navbar-right xs-clear-float bg-main ">
+<nav class="navbar navbar-default navbar-fixed-top navbar-right xs-clear-float bg-main ">
+
+
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -53,7 +55,7 @@
       circle
       bg-secondary bg-secondary-hover-darken-xs ripplelink
       space-inside-xs space-inside-sides-sm lg-space-outside-left-xl md-space-outside-left-xl sm-space-outside-left-xl
-      block
+      inline-block
       transition-normal
     " href="#buy-tickets">Buy tickets</a>
 
