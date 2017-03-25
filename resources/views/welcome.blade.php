@@ -115,7 +115,8 @@
                     <h1 class="text-color-main ">Solisten <span class="text-light">&</span> muzikaal leiders</h1>
                 </div>
                 <div class="col-lg-4 text-center space-outside-xl">
-                    <h1 class="text-color-main space-outside-down-lg font-lg ">Maarten <span class="text-light "> Engeltjes </span> </h1>
+                    <h1 class="text-color-main space-outside-down-xs font-lg ">Maarten <span class="text-light "> Engeltjes </span> </h1>
+                    <p class="space-outside-down-md">Countertenor</p>
                     <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
                         <img alt="Maarten Engeltjes" title="Maarten Engeltjes" src="/images/maarten-engeltjes.jpg">
                     </div>
@@ -126,7 +127,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4  text-center space-outside-xl">
-                    <h1 class="text-color-main space-outside-down-lg font-lg ">Riccardo <span class="text-light "> Minasi </span> </h1>
+                    <h1 class="text-color-main space-outside-down-xs font-lg ">Riccardo <span class="text-light "> Minasi </span> </h1>
+                    <p class="space-outside-down-md">Dirigent/violist</p>
                     <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
                         <img alt="Riccardo Minasi" title="Riccardo Minasi" src="/images/Riccardo Minasi.jpeg">
                     </div>
@@ -137,7 +139,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4  text-center space-outside-xl">
-                    <h1 class="text-color-main space-outside-down-lg font-lg ">Rosemary <span class="text-light "> Joshua </span> </h1>
+                    <h1 class="text-color-main space-outside-down-xs font-lg ">Rosemary <span class="text-light "> Joshua </span> </h1>
+                    <p class="space-outside-down-md">Sopraan</p>
                     <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
                         <img alt="Rosemary Joshua" title="Rosemary Joshua" src="/images/Rosemary Joshua.jpeg">
                     </div>
@@ -209,7 +212,7 @@
             @include('partials.top-scroll')
         </div>
 
-        <div class="container-fluid space-inside-sides-xl space-inside-lg bg-main "></div>
+       @include('partials.footer')
 
         <script type="text/javascript" src="/js/vue.js"></script>
         <script type="text/javascript" src="/js/app.js"></script>
