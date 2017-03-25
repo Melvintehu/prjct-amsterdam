@@ -39,11 +39,11 @@
     </li>
 
     <li class="{{ Request::path() == '/actueel' ? 'active  ' : '' }}  ">
-      <a class="text-color-light text-hover-dark" href="#doneren">Doneren</a>
+      <a class="text-color-light text-hover-dark" href="#contact">Contact</a>
     </li>
 
     <li class="{{ Request::path() == '/actueel' ? 'active  ' : '' }}  ">
-      <a class="text-color-light text-hover-dark" href="#contact">Contact</a>
+      <a class="text-color-light text-hover-dark" href="#doneren">Doneren</a>
     </li>
 
     <a
