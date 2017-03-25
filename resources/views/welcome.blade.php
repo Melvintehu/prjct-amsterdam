@@ -29,140 +29,77 @@
         <div class="container-fluid space-inside-sides-xl  space-inside-lg bg-accent">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="text-color-main text-bold">About</h1>
+                    <h1 class="text-color-main text-bold">Over</h1>
                 </div>
                 <div class="col-lg-8">
-                    <p class="space-outside-up-md">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="space-outside-up-md font-md">
+                        <b>PRJCT Amsterdam</b> is een nieuw barokensemble rondom countertenor <b>Maarten Engeltjes</b> en is een combinatie van een vaste kern van uitmuntende, recent afgestudeerde en in Nederland woonachtige barokmusici die een eigen muzikale en vooraanstaande visie hebben, samen met vooraanstaande internationale barokmusici. Het ensemble wordt geleid door een concertmeester van internationale allure die per project gekozen wordt. Zo wordt een omgeving gecreëerd waarin jong en oud elkaar inspireren.
+                    </p>
+
+                    <p class="font-md space-inside-md">
+                        Engeltjes is de nummer vijf van de meest gevraagde countertenoren ter wereld en studeerde cum laude af aan het Koninklijk Conservatorium in Den Haag, maar pas toen hij met de wereldtop mocht gaan zingen, ontdekte hij dat hij nog veel te leren had. Het kunstvakonderwijs kan in een dergelijk leerproces niet voorzien. Engeltjes wil daarom zijn naam en faam inzetten om <b>jonge musici </b> in een vroeg stadium de kans te bieden om <b>samen met de wereldtop</b> te musiceren , op een manier die past bij hun generatie.
                     </p>
                 </div>
             </div>
         </div>
 
-        <div id="buy-tickets" class="container-fluid space-inside-sides-xl space-inside-xl">
+        <div id="buy-tickets" class="container-fluid  space-inside-xl no-overflow">
             <div class="row all-row-centered">
                 <div class="col-lg-12 col-centered space-outside-down-xl">
                     <h1 class="text-color-main text-bold text-center ">Tickets kopen</h1>
                 </div>
-                <div class="col-lg-3 all-col-centered">
-                    <div style="width: 100%; height: 100%;" class=" shadow-xs shadow-sm-hover transition-normal pointer">
-                        <div class="image">
-                            <img src="/images/foto1.jpg">
-                        </div>
-                        <div class="bg-accent space-inside-sides-sm space-inside-sm" style="min-height: 150px; height: 150px;">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            </p>
-                        </div>
-                        <div>
-                            <button href="javascript:void(0)"
-                                style="position: relative;"
-                                class="
-                                    height-auto
-                                    bg-secondary
-                                    border-none
-                                    space-inside-sm
-                                    ripplelink
-                                    text-color-light
-                                    position-bottom
-                            "> Tickets kopen </button>
-                        </div>
-
-                    </div>
+                <div class="hidden-xs">
+                    @include('partials.homepage.ticket')
+                    @include('partials.homepage.ticket')
+                    @include('partials.homepage.ticket')
                 </div>
-                <!-- end of card -->
-                <div class="col-lg-3 all-col-centered">
-                    <div style="width: 100%; height: 100%;" class="
-                        shadow-xs shadow-sm-hover
-                        transition-normal
-                        pointer
-                    ">
-                        <div class="image">
-                            <img src="/images/foto1.jpg">
-                        </div>
-                        <div class="bg-accent space-inside-sides-sm space-inside-sm" style="min-height: 150px; height: 150px;">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            </p>
-                        </div>
-                        <div>
-                            <button href="javascript:void(0)"
-                                style="position: relative;"
-                                class="
-                                    height-auto
-                                    bg-secondary
-                                    border-none
-                                    space-inside-sm
-                                    ripplelink
-                                    text-color-light
-                                    position-bottom
-                            "> Tickets kopen </button>
-                        </div>
 
-                    </div>
+                <div id="app" class="visible-xs">
+                    <p class="text-bold">Swipe naar links of rechts voor meer tickets</p>
+                    <image-slider>
+                        <slide height="520px">
+                            <div slot="content" class="">
+                                @include('partials.homepage.ticket')
+                            </div>
+                        </slide>
+                        <slide height="520px">
+                            <div slot="content" class="">
+                                @include('partials.homepage.ticket')
+                            </div>
+                        </slide>
+                        <slide height="520px">
+                            <div slot="content" class="">
+                                @include('partials.homepage.ticket')
+                            </div>
+                        </slide>
+                    </image-slider>
                 </div>
-                <!-- end of card -->
-                <div class="col-lg-3 all-col-centered">
-                    <div style="width: 100%; height: 100%;" class="
-                        shadow-xs shadow-sm-hover
-                        transition-normal
-                        pointer
-                    ">
-                        <div class="image">
-                            <img src="/images/foto1.jpg">
-                        </div>
-                        <div class="bg-accent space-inside-sides-sm space-inside-sm" style="min-height: 150px; height: 150px;">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            </p>
-                        </div>
-                        <div>
-                            <button href="javascript:void(0)"
-                                style="position: relative;"
-                                class="
-                                    height-auto
-                                    bg-secondary
-                                    border-none
-                                    space-inside-sm
-                                    ripplelink
-                                    text-color-light
-                                    position-bottom
-                            "> Tickets kopen </button>
-                        </div>
 
-                    </div>
-                </div>
-                <!-- end of card -->
             </div>
         </div>
 
-
-        <div class="container-fluid space-inside-sides-xl  space-inside-lg bg-accent">
+        <div class="container-fluid space-inside-sides-xl   bg-accent">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 space-inside-lg">
                     <h1 class="text-color-main text-bold">Projecten</h1>
                 </div>
-                <div class="col-lg-8">
-                    <p class="space-outside-up-md">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+
+                <div id="app" class="">
+                    <image-slider>
+                        <slide height="300px">
+                            <div slot="content" class="">
+                                @include('partials.homepage.project')
+                            </div>
+                        </slide>
+                        <slide height="300px">
+                            <div slot="content" class="">
+                                @include('partials.homepage.project')
+                            </div>
+                        </slide>
+                    </image-slider>
                 </div>
             </div>
         </div>
-
 
         <div id="contact" class="container-fluid space-inside-sides-xl space-inside-lg">
             <div class="row">

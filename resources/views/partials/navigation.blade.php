@@ -1,12 +1,12 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
   <a href="/">
 
-    <div class="col-lg-1 col-md-1 col-sm-2  main-logo hidden-xs space-inside-up-xs ">
+    <div style="position: relative; top: 7px;" class="col-lg-1 col-md-1 col-sm-2  main-logo hidden-xs space-inside-up-xs ">
       <img src='../images/logo-1.jpg' />
     </div>
 
-    <div class="col-lg-3 col-md-2 col-sm-1  main-logo visible-lg space-inside-up-xs ">
-      <img src='../images/prjct-amsterdam.jpg' />
+    <div style="position: relative; top: 9px;" class="col-lg-3 col-md-2 col-sm-1  main-logo visible-lg space-inside-up-xs ">
+      <img style="height: 30px;" src='../images/prjct-amsterdam.jpg' />
     </div>
 
   </a>
@@ -52,16 +52,10 @@
       text-color-light
       circle
       bg-secondary bg-secondary-hover-darken-xs ripplelink
-      space-inside-xs space-inside-sides-sm space-outside-left-xl
-
-    " href="#">Buy tickets</a>
-
-
-
-<!--
-    <li class="{{ Request::path() == '/contact' ? 'active ' : '' }} ">
-      <a class="text-color-light text-hover-dark" href="{{ URL::to('contact') }}">Donate</a>
-    </li> -->
+      space-inside-xs space-inside-sides-sm lg-space-outside-left-xl md-space-outside-left-xl sm-space-outside-left-xl
+      block
+      transition-normal
+    " href="#buy-tickets">Buy tickets</a>
 
   </ul>
 

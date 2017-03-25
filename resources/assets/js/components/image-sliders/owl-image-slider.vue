@@ -1,5 +1,5 @@
 <template>
-    <div style="height: 450px;" class="owl-carousel no-overflow">
+    <div  class="owl-carousel no-overflow">
       <slot></slot>
     </div>
 </template>

@@ -2,7 +2,7 @@
   <div class="row">
 
     <image-slider style="height: 100%"  >
-      <slide >
+      <slide overlay="true" >
         <div slot="content"
           class="
             container

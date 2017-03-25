@@ -1,11 +1,10 @@
 <template>
-<div class="banner">
+<div :style="'height:' + height" class="banner">
     <div class="padding-slider">
         <slot name="content"  > </slot>
     </div>
-    <div class="overlay-sl"></div>
-    <slot class="slider-image-sl lg-banner-height" name="background"></slot>
-
+    <div v-if="overlay" class="overlay-sl"></div>
+    <slot class="slider-image-sl lg-banner-height background-sl" name="background"></slot>
 </div>
 </template>
 
@@ -51,7 +50,8 @@
 <script>
     export default {
         props: {
-            overlay: "",
+            overlay: false,
+            height: "",
         },
         data() {
             return {
