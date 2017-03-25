@@ -15,10 +15,11 @@
               text-color-light
               lg-space-outside-up-xl md-space-outside-up-xs xs-space-outside-up-xs space-inside-up-xl
               hidden-xs
-          ">
+              wow fadeInLeft animated
+          " data-wow-duration="2s">
 
 
-            <span class=""> PRJCT </span> Amsterdam
+            <span> PRJCT </span> Amsterdam
           </h1>
 
           <p class="
@@ -26,15 +27,17 @@
             space-outside-up-md space-inside-down-md xs-space-outside-xs
             block
             xs-font-md
+            wow fadeIn animated
           "><span style="font-size: 50px; position: relative; top: 15px;" class="text-color-secondary ">“</span>We believe in music, love, and new generations<span style="font-size: 50px; position: relative; top: 15px;" class="text-color-secondary">”</span></p>
-          <a href="#" class="
+          <a href="#over" class="
               inline-block
               border border-light
               text-color-light text-uppercase
               space-inside-sides-lg space-inside-sm
               transition-normal
               ripplelink
-          " href="/mentor4you">Read more</a>
+              wow slideInUp animated
+          " data-wow-duration="2s">Read more</a>
 
           <div
             class="

@@ -14,7 +14,7 @@
         <script>
             window.Laravel = { csrfToken: '{{ csrf_token() }}' };
         </script>
-        <div style="position: relative; z-index: 20"
+        <div id='top' style="position: relative; z-index: 20"
             class="
                 container-fluid
                 lg-space-inside-sides-xl md-space-inside-sides-xl sm-space-inside-sides-xl
@@ -26,7 +26,7 @@
             @include('partials.banner')
         </div>
 
-        <div class="container-fluid space-inside-sides-xl  space-inside-lg bg-accent">
+        <div id='over' class="container-fluid space-inside-sides-xl  space-inside-lg bg-accent">
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="text-color-main text-bold">Over</h1>
@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <div class="container-fluid space-inside-sides-xl space-inside-lg   bg-accent">
+        <div id="projecten" class="container-fluid space-inside-sides-xl space-inside-lg   bg-accent">
             <div class="row">
                 <div class="col-lg-12 space-inside-down-lg">
                     <h1 class="text-color-main text-bold ">Pergolesi’s <span class="text-light"> Stabat Mater </span></h1>
@@ -150,46 +150,61 @@
 
         <div id="contact" class="container-fluid space-inside-sides-xl space-inside-lg">
             <div class="row">
-                <div class="col-lg-12 space-inside-down-lg">
-                    <h1 class="text-color-main text-bold">Contact</h1>
-                </div>
-                <div class="col-lg-4 clear-floats space-inside-xs">
-                    <p class="space-inside-sm text-bold">Naam</p>
-                    <input type="text" name="name"
+                <form method='POST' action='/mail'>
+                    <div class="col-lg-12 space-inside-down-lg">
+                        <h1 class="text-color-main text-bold">Contact</h1>
+                    </div>
+                    <div class="col-lg-4 clear-floats space-inside-xs">
+                        <p class="space-inside-sm text-bold">Naam</p>
+                        <input type="text" name="name"
+                        class="
+                            border border-accent border-curved
+                            height-auto
+                            bg-accent
+                            space-inside-left-sm
+                        " required>
+                    </div>
+                    <div class="col-lg-4 clear-floats space-inside-xs">
+                        <p class="space-inside-sm text-bold">Telefoonnummer</p>
+                        <input type="text" name="name"
+                        class="
+                            border border-accent border-curved
+                            height-auto
+                            bg-accent
+                            text-color-dark
+                            space-inside-left-sm
+                        "
+                        required>
+                    </div>
+                    <div class="col-lg-7 clear-floats space-inside-xs">
+                        <p class="space-inside-sm text-bold">Uw bericht</p>
+                        <textarea style="resize: none; min-height: 200px;" type="text" name="name"
+                        class="
+                            border border-accent border-curved
+                            height-auto
+                            bg-accent
+                            text-color-dark
+                            space-inside-left-sm
+                            space-inside-up-sm
+                        "
+                        required> </textarea>
+                    </div>
+                    <button
                     class="
-                        border border-accent border-curved
-                        height-auto
-                        bg-accent
-                        text-color-light
-                        space-inside-left-sm
-                    ">
-                </div>
-                <div class="col-lg-4 clear-floats space-inside-xs">
-                    <p class="space-inside-sm text-bold">Telefoonnummer</p>
-                    <input type="text" name="name"
-                    class="
-                        border border-accent border-curved
-                        height-auto
-                        bg-accent
-                        text-color-dark
-                        space-inside-left-sm
-                    "
-                    >
-                </div>
-                <div class="col-lg-7 clear-floats space-inside-xs">
-                    <p class="space-inside-sm text-bold">Uw bericht</p>
-                    <textarea style="resize: none; min-height: 200px;" type="text" name="name"
-                    class="
-                        border border-accent border-curved
-                        height-auto
-                        bg-accent
-                        text-color-dark
-                        space-inside-left-sm
-                        space-inside-up-sm
-                    "
-                    > </textarea>
-                </div>
+                      text-color-light
+                      circle
+                      border-none
+                      bg-secondary bg-secondary-hover-darken-xs ripplelink
+                      space-inside-xs space-inside-sides-sm space-outside-up-xs space-outside-left-sm
+                      block
+                      transition-normal
+                    ">Versturen</button>
+
+                </form>
             </div>
+
+
+            @include('partials.top-scroll')
         </div>
 
         <div class="container-fluid space-inside-sides-xl space-inside-lg bg-main "></div>
@@ -205,6 +220,9 @@
           ga('create', 'UA-96178157-1', 'auto');
           ga('send', 'pageview');
 
+        </script>
+        <script>
+          new WOW().init();
         </script>
     </body>
 </html>
