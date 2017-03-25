@@ -31,19 +31,19 @@
     </li>
 
     <li class="{{ Request::path() == '/actueel' ? 'active  ' : '' }}  ">
-      <a class="text-color-light text-hover-dark" href="#">About</a>
+      <a class="text-color-light text-hover-dark" href="#over">Over</a>
     </li>
 
     <li class="{{ Request::path() == '/actueel' ? 'active  ' : '' }}  ">
-      <a class="text-color-light text-hover-dark" href="#">Projects</a>
+      <a class="text-color-light text-hover-dark" href="#projecten">Projecten</a>
     </li>
 
     <li class="{{ Request::path() == '/actueel' ? 'active  ' : '' }}  ">
-      <a class="text-color-light text-hover-dark" href="#">Donate</a>
+      <a class="text-color-light text-hover-dark" href="#doneren">Doneren</a>
     </li>
 
     <li class="{{ Request::path() == '/actueel' ? 'active  ' : '' }}  ">
-      <a class="text-color-light text-hover-dark" href="#">Contact</a>
+      <a class="text-color-light text-hover-dark" href="#contact">Contact</a>
     </li>
 
     <a

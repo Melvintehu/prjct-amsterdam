@@ -14,7 +14,7 @@
         <script>
             window.Laravel = { csrfToken: '{{ csrf_token() }}' };
         </script>
-        <div style="position: relative; z-index: 20"
+        <div id='top' style="position: relative; z-index: 20"
             class="
                 container-fluid
                 lg-space-inside-sides-xl md-space-inside-sides-xl sm-space-inside-sides-xl
@@ -26,7 +26,7 @@
             @include('partials.banner')
         </div>
 
-        <div class="container-fluid space-inside-sides-xl  space-inside-lg bg-accent">
+        <div id='over' class="container-fluid space-inside-sides-xl  space-inside-lg bg-accent">
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="text-color-main text-bold">Over</h1>
@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <div class="container-fluid space-inside-sides-xl   bg-accent">
+        <div id='projecten' class="container-fluid space-inside-sides-xl   bg-accent">
             <div class="row">
                 <div class="col-lg-12 space-inside-lg">
                     <h1 class="text-color-main text-bold">Projecten</h1>
@@ -143,6 +143,8 @@
                     > </textarea>
                 </div>
             </div>
+
+            @include('partials.top-scroll')
         </div>
 
         <script type="text/javascript" src="/js/vue.js"></script>

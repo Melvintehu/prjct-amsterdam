@@ -27,14 +27,14 @@
             block
             xs-font-md
           "><span style="font-size: 50px; position: relative; top: 15px;" class="text-color-secondary ">“</span>We believe in music, love, and new generations<span style="font-size: 50px; position: relative; top: 15px;" class="text-color-secondary">”</span></p>
-          <a href="#" class="
+          <a href="#over" class="
               inline-block
               border border-light
               text-color-light text-uppercase
               space-inside-sides-lg space-inside-sm
               transition-normal
               ripplelink
-          " href="/mentor4you">Read more</a>
+          ">Read more</a>
 
           <div
             class="
