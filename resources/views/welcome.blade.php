@@ -78,25 +78,72 @@
             </div>
         </div>
 
-        <div class="container-fluid space-inside-sides-xl   bg-accent">
+        <div class="container-fluid space-inside-sides-xl space-inside-lg   bg-accent">
             <div class="row">
-                <div class="col-lg-12 space-inside-lg">
-                    <h1 class="text-color-main text-bold">Projecten</h1>
+                <div class="col-lg-12 space-inside-down-lg">
+                    <h1 class="text-color-main text-bold ">Pergolesi’s <span class="text-light"> Stabat Mater </span></h1>
+                    <p class="font-lg space-outside-up-md text-italic"> Projecten </p>
                 </div>
+                <div class="col-lg-8 ">
+                    <p class="font-md">
+                        Het eerste project van PRJCT Amsterdam is het Stabat Mater van Pergolesi, één van de beroemdste middeleeuws-Latijnse gedichten over de Moeder Gods in smart om haar zoon, de gekruisigde Christus. Voorafgaand aan het project zal schrijver P.F. Thomése spreken over de dood van zijn dochter. Deze voordracht breekt de muziek van Pergolesi over dezelfde thematiek open en verbindt de wereld van de literatuur aan die van de klassieke muziek.
+                    </p>
+                    <a
+                        class="
+                            space-outside-up-md
+                            inline-block
+                            bg-secondary
+                            text-color-light text-uppercase
+                            ripplelink
+                            space-inside-sides-sm
+                            space-inside-sm
+                            shadow-xs
+                        "
+                     href="#buy-tickets"> Bestel uw tickets hier </a>
+                </div>
+            </div>
+        </div>
 
-                <div id="app" class="">
-                    <image-slider>
-                        <slide height="300px">
-                            <div slot="content" class="">
-                                @include('partials.homepage.project')
-                            </div>
-                        </slide>
-                        <slide height="300px">
-                            <div slot="content" class="">
-                                @include('partials.homepage.project')
-                            </div>
-                        </slide>
-                    </image-slider>
+
+
+        <div class="container-fluid bg-accent space-inside-sides-xl">
+            <div style="height: 1px;" class="divider bg-main bg-main-lighten-lg"></div>
+            <div class="row text-center">
+                <div class="col-lg-12 space-outside-xl">
+                    <h1 class="text-color-main ">Solisten <span class="text-light">&</span> muzikaal leiders</h1>
+                </div>
+                <div class="col-lg-4 text-center space-outside-xl">
+                    <h1 class="text-color-main space-outside-down-lg font-lg ">Maarten <span class="text-light "> Engeltjes </span> </h1>
+                    <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
+                        <img alt="Maarten Engeltjes" title="Maarten Engeltjes" src="/images/maarten-engeltjes.jpg">
+                    </div>
+                    <div class="inline-block space-inside-md space-inside-sides-lg">
+                        <p class=" font-md">
+                            Maarten Engeltjes zingt al sinds hij vier jaar was en koestert van kleins af aan een voorliefde voor Händel en Bach. Hij is uitgegroeid tot één van de meest gevraagde countertenors ter wereld en behoort nu tot de absolute wereldtop van de klassieke muziek.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4  text-center space-outside-xl">
+                    <h1 class="text-color-main space-outside-down-lg font-lg ">Riccardo <span class="text-light "> Minasi </span> </h1>
+                    <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
+                        <img alt="Riccardo Minasi" title="Riccardo Minasi" src="/images/Riccardo Minasi.jpeg">
+                    </div>
+                    <div class="inline-block space-inside-md space-inside-sides-lg">
+                        <p class=" font-md">
+                            Dirigent en violist Riccardo Minasi werd al eerder door The Guardian beschreven als een “outstanding musician”, en heeft in korte tijd een reputatie als één van de meest levendige talenten van de Europese muziekwereld van de afgelopen jaren weten te verkrijgen.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4  text-center space-outside-xl">
+                    <h1 class="text-color-main space-outside-down-lg font-lg ">Rosemary <span class="text-light "> Joshua </span> </h1>
+                    <div style="width: 200px; height: 200px;" class="image inline-block circle bg-main">
+                        <img alt="Rosemary Joshua" title="Rosemary Joshua" src="/images/Rosemary Joshua.jpeg">
+                    </div>
+                    <div class="inline-block space-inside-md space-inside-sides-lg">
+                        <p class=" font-md">
+                            Befaamd sopraan Rosemary Joshua zong onder meer bij het Royal Opera House, het Teatro alla Scala, de Metropolitan Opera, de Bayerische Staatsoper en De Nationale Opera. Ook werkte zij als artistiek leidster bij DNOA, waar zij met veel toewijding en enthousiasme jonge operatalenten klaarstoomde voor de beroepspraktijk.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,6 +191,8 @@
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid space-inside-sides-xl space-inside-lg bg-main "></div>
 
         <script type="text/javascript" src="/js/vue.js"></script>
         <script type="text/javascript" src="/js/app.js"></script>

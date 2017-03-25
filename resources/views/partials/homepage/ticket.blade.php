@@ -18,13 +18,12 @@
             <a target="_blank" href="http://www.larenklassiek.nl/"
                 style="position: relative;"
                 class="
-                    height-auto
-                    bg-main
+                    block
+                    bg-accent
                     border-none
                     space-inside-sm
                     ripplelink
-                    text-color-light
-                    position-bottom
+                    text-color-dark
             "> Tickets kopen </a>
         </div>
 
