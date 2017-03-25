@@ -4,6 +4,7 @@ require('./Core/Classes'); // Pulls in some helper classes
 require('owl-carousel-2/owl.carousel');
 require('./ripple');
 require('./scrollTo');
+require('./wow.min');
 
 Vue.component('image-display', require('./components/ImageDisplay.vue'));
 Vue.component('image-uploader', require('./components/ImageUploader.vue'));
