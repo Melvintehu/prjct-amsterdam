@@ -48,12 +48,45 @@
         <div id="buy-tickets" class="container-fluid  space-inside-xl no-overflow">
             <div class="row all-row-centered">
                 <div class="col-lg-12 col-centered space-outside-down-xl">
-                    <h1 class="text-color-main text-bold text-center ">Tickets kopen</h1>
+                    <h1 class="text-color-main text-bold text-center ">Tickets bestellen</h1>
                 </div>
                 <div class="hidden-xs">
-                    @include('partials.homepage.ticket')
-                    @include('partials.homepage.ticket')
-                    @include('partials.homepage.ticket')
+                    @include('partials.homepage.ticket', [
+                        'date' => '27 september 2017',
+                        'image' => '/images/sint-jansbasiliek.jpg',
+                        'title' => 'Sint-Jansbasiliek, Laren',
+                        'websiteAddress' => 'http://www.larenklassiek.nl/',
+                    ])
+                    @include('partials.homepage.ticket', [
+                        'date' => '29 september 2017',
+                        'image' => '/images/concertzaal-theaters.jpg',
+                        'title' => 'Concertzaal Theaters, Tilburg ',
+                        'websiteAddress' => 'http://theaterstilburg.nl/22/online-bestellen',
+                    ])
+                    @include('partials.homepage.ticket', [
+                        'date' => '30 september 2017',
+                        'image' => '/images/philharmonie.jpg',
+                        'title' => 'De Philharmonie, Haarlem',
+                        'websiteAddress' => 'https://www.theater-haarlem.nl/zoeken/?zoekwaarde=stabat+mater#modal=/programma/12374/Prachtstemmen_Stabat_Mater/Maarten_Engeltjes_PRJCT_Amsterdam/',
+                    ])
+                    @include('partials.homepage.ticket', [
+                        'date' => '1 oktober 2017',
+                        'image' => '/images/muziekgebouw-aan-t-ij.jpg',
+                        'title' => 'Muziekgebouw aan ’t IJ, Amsterdam',
+                        'websiteAddress' => 'http://www.muziekgebouw.nl/agenda/Concerten/6625/PRJCT_Amsterdam/De_troost_van_Stabat_Mater/',
+                    ])
+                    @include('partials.homepage.ticket', [
+                        'date' => '24 november 2017',
+                        'image' => '/images/chapelle-de-la-trinité.jpg',
+                        'title' => 'Chapelle de la Trinité, Lyon',
+                        'websiteAddress' => 'http://www.lachapelle-lyon.com/',
+                    ])
+                    @include('partials.homepage.ticket', [
+                        'date' => '25 november 2017',
+                        'image' => '/images/salle-gaveau.jpg',
+                        'title' => 'Salle Gaveau, Parijs',
+                        'websiteAddress' => 'http://www.sallegaveau.com/',
+                    ])
                 </div>
 
                 <div id="app" class="visible-xs">
@@ -61,17 +94,32 @@
                     <image-slider>
                         <slide height="520px">
                             <div slot="content" class="">
-                                @include('partials.homepage.ticket')
+                                @include('partials.homepage.ticket', [
+                                    'date' => '27 september 2017',
+                                    'image' => '/images/foto1.jpg',
+                                    'title' => 'Sint-Jansbasiliek, Laren',
+                                    'websiteAddress' => 'http://www.larenklassiek.nl/',
+                                ])
                             </div>
                         </slide>
                         <slide height="520px">
                             <div slot="content" class="">
-                                @include('partials.homepage.ticket')
+                                @include('partials.homepage.ticket', [
+                                    'date' => '27 september 2017',
+                                    'image' => '/images/ticket1.jpg',
+                                    'title' => 'Sint-Jansbasiliek, Laren',
+                                    'websiteAddress' => 'http://www.larenklassiek.nl/',
+                                ])
                             </div>
                         </slide>
                         <slide height="520px">
                             <div slot="content" class="">
-                                @include('partials.homepage.ticket')
+                                @include('partials.homepage.ticket', [
+                                    'date' => '27 september 2017',
+                                    'image' => '/images/foto1.jpg',
+                                    'title' => 'Sint-Jansbasiliek, Laren',
+                                    'websiteAddress' => 'http://www.larenklassiek.nl/',
+                                ])
                             </div>
                         </slide>
                     </image-slider>
@@ -80,7 +128,7 @@
             </div>
         </div>
 
-        <div id="projecten" class="container-fluid space-inside-sides-xl space-inside-lg   bg-accent">
+        <div id="projecten" class="container-fluid space-inside-sides-xl xs-space-inside-sides-md space-inside-lg   bg-accent">
             <div class="row">
                 <div class="col-lg-12 space-inside-down-lg">
                     <h1 class="text-color-main text-light ">Pergolesi’s <span class="text-bold"> Stabat Mater </span></h1>

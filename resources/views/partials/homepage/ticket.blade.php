@@ -2,20 +2,16 @@
 <div style="min-width:345px; max-width: 345px;" class="col-lg-3 all-col-centered  space-outside-md">
     <div style="width: 100%; height: 100%;" class=" shadow-xs shadow-sm-hover transition-normal pointer">
         <div class="bg-secondary">
-            <p class="text-color-light text-center space-inside-sm text-bold">27 september 2017</p>
+            <p class="text-color-light text-center space-inside-sm text-bold">{{ $date }}</p>
         </div>
         <div style="width: 100%; height: 210px;" class="image">
-            <img class="width-auto" src="/images/ticket1.jpg">
+            <img class="width-auto" src="{{$image}}">
         </div>
         <div class=" space-inside-sides-sm space-inside-sm" style="min-height: 150px; height: 150px;">
-            <h4 style="min-height: 40px;" class="">Sint-Jansbasiliek, Laren</h4>
-            <p class="">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            </p>
+            <h4 style="min-height: 40px;" class="">{{ $title }}</h4>
         </div>
         <div>
-            <a target="_blank" href="http://www.larenklassiek.nl/"
+            <a target="_blank" href="{{$websiteAddress}}"
                 style="position: relative;"
                 class="
                     block
@@ -24,7 +20,7 @@
                     space-inside-sm
                     ripplelink
                     text-color-dark
-            "> Tickets kopen </a>
+            "> Tickets bestellen </a>
         </div>
 
     </div>
